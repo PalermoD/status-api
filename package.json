@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A user system leveraging rest-hapi to bootstrap your app.",
   "scripts": {
-    "start": "gulp",
+    "start": "node server",
+    "postinstall": "gulp default",
     "test": "gulp test"
   },
   "engines": {
